@@ -1,0 +1,31 @@
+{
+   
+   "background": {
+      "persistent": false,
+      "scripts": [ "ticker-update.js" ]
+
+   },
+   
+   "browser_action": {
+      "default_icon": "btc16.png",
+      "default_title": "wayne's browser data"
+   },
+   
+   "description": "Description of Extension",
+   
+   "icons": {
+      "128": "btc128.png",
+      "16": "btc16.png",
+      "48": "btc48.png",
+      "64": "btc64.png"
+   },
+ 
+   "manifest_version": 2,
+   "minimum_chrome_version": "22",
+   "name": "mini_crypto",
+
+   "permissions": [ "https://api.coingecko.com/", "alarms", "contextMenus" ],
+  
+
+   "version": "0.0.1"
+}
